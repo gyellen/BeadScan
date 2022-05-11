@@ -5,7 +5,7 @@ Current compatibility is
    ThorimageLS v4.2.2020.3061
    MATLAB R2019b
 
-Input files are .dFLIM files from a digiFLIM-enabled version of ThorimageLS, collected as X-Y tiled sets. The same tiles are imaged after each change of solution. The experiment.xml file is used automatically to determine image field size and tile numbers, and the fileset is read in automatically. 
+Input files are .dFLIM and .photons files from a digiFLIM-enabled version of ThorimageLS, collected as X-Y tiled sets. The same tiles are imaged after each change of solution. The experiment.xml file is used automatically to determine image field size and tile numbers, and the fileset is read in automatically. 
 
 BeadSurveyorT reads the files from specified folder location, displays them, and analyzes them into circular ROIs, based on specified radius limits (in pixels) and thresholds.  Sets should be read one at a time; autonumbering is \Set\, \Set_001\, \Set_002\, etc. If run during acquisition, the program will monitor file creation and read images when they are ready.  To use a different microscope file format, the user will need to import the data into the format of dFLIM_Image objects (as shown in the dFLIM_Classes folder).
 
